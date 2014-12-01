@@ -3,8 +3,11 @@
 // -> When Robot.new is called is should return a new object with Robot as its prototype 
 //    e.g. var robby = Robot.new();
 //    Robot should be the prototype of robby
-
-__
+var Robot = {
+	new: function() {
+		return Object.create(Robot);
+	}
+};
 
 
 // ------------------------------------------------
