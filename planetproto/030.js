@@ -5,7 +5,7 @@ var robot = {}
 
 // -> Make machine the prototype of vehicle
 // -> Make machine the prototype of robot
-vehicle.__proto___ = machine;
+vehicle.__proto__ = machine;
 robot.__proto__ = machine;
 
 // -> What is `vehicle.motors`?
